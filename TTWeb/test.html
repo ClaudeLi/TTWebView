@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+            <title>test Title</title>
+            <style type="text/css">
+                *{
+                    margin: 0; padding: 0;
+                }
+            body{
+                padding: 20px;
+            }
+            #text{
+                font-size: 14px;
+                margin: 20px 0;
+                padding: 20px;
+                display: block;
+                background-color: #eee;
+                line-height: 1.8em;
+            }
+            #text h1{
+                display: inline-block;
+                font-size: 14px;
+                color: darkred;
+            }
+            input{
+                font-size: 13px;
+                border: none;
+                background-color: #222;
+                padding: 8px 10px;
+                border-radius: 3px;
+                color: #fff;
+                margin: 0 10px;
+            }
+            </style>
+    </head>
+    <body>
+        
+        <div id="ttHybrid"></div>
+        </br>
+        <p><button onclick="window.TTHybrid.open('s_details', '10382');">课程详情页</button></p>
+        <p><button onclick="window.TTHybrid.open('e_details', '151796');">作品详情页</button></p>
+        <p><button onclick="window.TTHybrid.open('user_home', '1');">个人主页</button></p>
+        <p><button onclick="window.TTHybrid.open('user_message', JSON.stringify({uid : '1', nicheng : 'Hello', face : 'http://7xi41q.com1.z0.glb.clouddn.com/FmHEwECwgmshMcWTCAr2fkwXHwY9'}));">私聊用户</button></p>
+        </br>
+        </br>
+        <input type="button" value="获取系统信息" />
+        <input type="button" value="获取用户信息" />
+        <input type="button" value="打开登录" />
+        <p id="text"></p>
+        </br>
+        <script type="application/javascript">
+            
+            var $ttHybrid = document.getElementById('ttHybrid');
+            
+            window.ttHybrid = window.TTHybrid || {
+                open : function(type, val)
+                {
+                    $ttHybrid.innerHTML = type + val;
+                    return false;
+                }
+            };
+        
+        $ttHybrid.innerHTML = 'TTHybrid : ' + window.TTHybrid.toString();
+        </script>
+        
+        <script type="application/javascript">
+            var dump = function(value)
+            {
+                if (typeof value == 'object')
+                {
+                    var objectStr = comm = "";
+                    for (var property in value)
+                    {
+                        objectStr  += comm + "<h1>"+property +":</h1> " + value[property];
+                        
+                        comm = '<br />';
+                    }
+                    document.getElementById('text').innerHTML = objectStr;
+                }
+                else
+                {
+                    document.getElementById('text').innerHTML = value;
+                }
+            };
+        
+        if (typeof window.TTHybrid == 'object')
+        {
+            document.getElementsByTagName('input').item(0).onclick = function()
+            {
+                window.TTHybrid.getSystemDataSuccess = function(data)
+                {
+                    dump(JSON.parse(data));
+                };
+                window.TTHybrid.getSystemData('getSystemDataSuccess');
+            };
+            document.getElementsByTagName('input').item(1).onclick = function()
+            {
+                window.TTHybrid.getUserDataSuccess = function(data)
+                {
+                    dump(JSON.parse(data));
+                };
+                window.TTHybrid.getUserData('getUserDataSuccess');
+            };
+            document.getElementsByTagName('input').item(2).onclick = function()
+            {
+                window.TTHybrid.openLogin('loginSuccess');
+            };
+            
+            window.TTHybrid.loginSuccess = function()
+            {
+                dump('用户登录成功<br>');
+            };
+        }
+        else
+        {
+            dump('<h1>TTHybrid</h1>对象不存在');
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CBB7461EE525980078EE54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7451EE525980078EE54 /* main.m */; };
+		D3CBB7491EE525980078EE54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7481EE525980078EE54 /* AppDelegate.m */; };
+		D3CBB74C1EE525980078EE54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB74B1EE525980078EE54 /* ViewController.m */; };
+		D3CBB74F1EE525980078EE54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CBB74D1EE525980078EE54 /* Main.storyboard */; };
+		D3CBB7521EE525980078EE54 /* TTWeb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7501EE525980078EE54 /* TTWeb.xcdatamodeld */; };
+		D3CBB7541EE525980078EE54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3CBB7531EE525980078EE54 /* Assets.xcassets */; };
+		D3CBB7571EE525980078EE54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3CBB7551EE525980078EE54 /* LaunchScreen.storyboard */; };
+		D3CBB7621EE525980078EE54 /* TTWebTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7611EE525980078EE54 /* TTWebTests.m */; };
+		D3CBB76D1EE525980078EE54 /* TTWebUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB76C1EE525980078EE54 /* TTWebUITests.m */; };
+		D3CBB7811EE526290078EE54 /* TTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB77C1EE526290078EE54 /* TTWebView.m */; };
+		D3CBB7821EE526290078EE54 /* TTWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB77E1EE526290078EE54 /* TTWKWebView.m */; };
+		D3CBB7831EE526290078EE54 /* TTUIWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7801EE526290078EE54 /* TTUIWebView.m */; };
+		D3CBB78C1EE5263A0078EE54 /* TTWebObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7851EE5263A0078EE54 /* TTWebObject.m */; };
+		D3CBB78D1EE5263A0078EE54 /* TTJSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7871EE5263A0078EE54 /* TTJSContext.m */; };
+		D3CBB79C1EE52C870078EE54 /* TTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB79B1EE52C870078EE54 /* TTWebViewController.m */; };
+		D3CBB7A31EE547CD0078EE54 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7A01EE547CD0078EE54 /* NJKWebViewProgress.m */; };
+		D3CBB7AB1EE547EE0078EE54 /* TTWebView+SwipePanGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7A61EE547EE0078EE54 /* TTWebView+SwipePanGesture.m */; };
+		D3CBB7AC1EE547EE0078EE54 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7A81EE547EE0078EE54 /* UIView+ViewController.m */; };
+		D3CBB7AD1EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CBB7AA1EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.m */; };
+		D3CBB7AF1EE548A90078EE54 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = D3CBB7AE1EE548A90078EE54 /* test.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3CBB75E1EE525980078EE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CBB7391EE525980078EE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CBB7401EE525980078EE54;
+			remoteInfo = TTWeb;
+		};
+		D3CBB7691EE525980078EE54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3CBB7391EE525980078EE54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3CBB7401EE525980078EE54;
+			remoteInfo = TTWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3CBB7411EE525980078EE54 /* TTWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CBB7451EE525980078EE54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3CBB7471EE525980078EE54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3CBB7481EE525980078EE54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3CBB74A1EE525980078EE54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3CBB74B1EE525980078EE54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3CBB74E1EE525980078EE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3CBB7511EE525980078EE54 /* TTWeb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTWeb.xcdatamodel; sourceTree = "<group>"; };
+		D3CBB7531EE525980078EE54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3CBB7561EE525980078EE54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3CBB7581EE525980078EE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CBB75D1EE525980078EE54 /* TTWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CBB7611EE525980078EE54 /* TTWebTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWebTests.m; sourceTree = "<group>"; };
+		D3CBB7631EE525980078EE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CBB7681EE525980078EE54 /* TTWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CBB76C1EE525980078EE54 /* TTWebUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTWebUITests.m; sourceTree = "<group>"; };
+		D3CBB76E1EE525980078EE54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CBB77B1EE526290078EE54 /* TTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWebView.h; sourceTree = "<group>"; };
+		D3CBB77C1EE526290078EE54 /* TTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWebView.m; sourceTree = "<group>"; };
+		D3CBB77D1EE526290078EE54 /* TTWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWKWebView.h; sourceTree = "<group>"; };
+		D3CBB77E1EE526290078EE54 /* TTWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWKWebView.m; sourceTree = "<group>"; };
+		D3CBB77F1EE526290078EE54 /* TTUIWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUIWebView.h; sourceTree = "<group>"; };
+		D3CBB7801EE526290078EE54 /* TTUIWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUIWebView.m; sourceTree = "<group>"; };
+		D3CBB7841EE5263A0078EE54 /* TTWebObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWebObject.h; sourceTree = "<group>"; };
+		D3CBB7851EE5263A0078EE54 /* TTWebObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWebObject.m; sourceTree = "<group>"; };
+		D3CBB7861EE5263A0078EE54 /* TTJSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTJSContext.h; sourceTree = "<group>"; };
+		D3CBB7871EE5263A0078EE54 /* TTJSContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTJSContext.m; sourceTree = "<group>"; };
+		D3CBB79A1EE52C870078EE54 /* TTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWebViewController.h; sourceTree = "<group>"; };
+		D3CBB79B1EE52C870078EE54 /* TTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWebViewController.m; sourceTree = "<group>"; };
+		D3CBB79F1EE547CD0078EE54 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		D3CBB7A01EE547CD0078EE54 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		D3CBB7A51EE547EE0078EE54 /* TTWebView+SwipePanGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTWebView+SwipePanGesture.h"; sourceTree = "<group>"; };
+		D3CBB7A61EE547EE0078EE54 /* TTWebView+SwipePanGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTWebView+SwipePanGesture.m"; sourceTree = "<group>"; };
+		D3CBB7A71EE547EE0078EE54 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		D3CBB7A81EE547EE0078EE54 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		D3CBB7A91EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
+		D3CBB7AA1EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
+		D3CBB7AE1EE548A90078EE54 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CBB73E1EE525980078EE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB75A1EE525980078EE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB7651EE525980078EE54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CBB7381EE525980078EE54 = {
+			isa = PBXGroup;
+			children = (
+				D3CBB7431EE525980078EE54 /* TTWeb */,
+				D3CBB7601EE525980078EE54 /* TTWebTests */,
+				D3CBB76B1EE525980078EE54 /* TTWebUITests */,
+				D3CBB7421EE525980078EE54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CBB7421EE525980078EE54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB7411EE525980078EE54 /* TTWeb.app */,
+				D3CBB75D1EE525980078EE54 /* TTWebTests.xctest */,
+				D3CBB7681EE525980078EE54 /* TTWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CBB7431EE525980078EE54 /* TTWeb */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB77A1EE526040078EE54 /* TTWebView */,
+				D3CBB7471EE525980078EE54 /* AppDelegate.h */,
+				D3CBB7481EE525980078EE54 /* AppDelegate.m */,
+				D3CBB74A1EE525980078EE54 /* ViewController.h */,
+				D3CBB74B1EE525980078EE54 /* ViewController.m */,
+				D3CBB7AE1EE548A90078EE54 /* test.html */,
+				D3CBB79A1EE52C870078EE54 /* TTWebViewController.h */,
+				D3CBB79B1EE52C870078EE54 /* TTWebViewController.m */,
+				D3CBB74D1EE525980078EE54 /* Main.storyboard */,
+				D3CBB7531EE525980078EE54 /* Assets.xcassets */,
+				D3CBB7551EE525980078EE54 /* LaunchScreen.storyboard */,
+				D3CBB7581EE525980078EE54 /* Info.plist */,
+				D3CBB7501EE525980078EE54 /* TTWeb.xcdatamodeld */,
+				D3CBB7441EE525980078EE54 /* Supporting Files */,
+			);
+			path = TTWeb;
+			sourceTree = "<group>";
+		};
+		D3CBB7441EE525980078EE54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB7451EE525980078EE54 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3CBB7601EE525980078EE54 /* TTWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB7611EE525980078EE54 /* TTWebTests.m */,
+				D3CBB7631EE525980078EE54 /* Info.plist */,
+			);
+			path = TTWebTests;
+			sourceTree = "<group>";
+		};
+		D3CBB76B1EE525980078EE54 /* TTWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB76C1EE525980078EE54 /* TTWebUITests.m */,
+				D3CBB76E1EE525980078EE54 /* Info.plist */,
+			);
+			path = TTWebUITests;
+			sourceTree = "<group>";
+		};
+		D3CBB77A1EE526040078EE54 /* TTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB79E1EE547CD0078EE54 /* NJKWebViewProgress */,
+				D3CBB79D1EE5479A0078EE54 /* Category */,
+				D3CBB77B1EE526290078EE54 /* TTWebView.h */,
+				D3CBB77C1EE526290078EE54 /* TTWebView.m */,
+				D3CBB77D1EE526290078EE54 /* TTWKWebView.h */,
+				D3CBB77E1EE526290078EE54 /* TTWKWebView.m */,
+				D3CBB77F1EE526290078EE54 /* TTUIWebView.h */,
+				D3CBB7801EE526290078EE54 /* TTUIWebView.m */,
+				D3CBB7841EE5263A0078EE54 /* TTWebObject.h */,
+				D3CBB7851EE5263A0078EE54 /* TTWebObject.m */,
+				D3CBB7861EE5263A0078EE54 /* TTJSContext.h */,
+				D3CBB7871EE5263A0078EE54 /* TTJSContext.m */,
+			);
+			path = TTWebView;
+			sourceTree = "<group>";
+		};
+		D3CBB79D1EE5479A0078EE54 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB7A51EE547EE0078EE54 /* TTWebView+SwipePanGesture.h */,
+				D3CBB7A61EE547EE0078EE54 /* TTWebView+SwipePanGesture.m */,
+				D3CBB7A71EE547EE0078EE54 /* UIView+ViewController.h */,
+				D3CBB7A81EE547EE0078EE54 /* UIView+ViewController.m */,
+				D3CBB7A91EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.h */,
+				D3CBB7AA1EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D3CBB79E1EE547CD0078EE54 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBB79F1EE547CD0078EE54 /* NJKWebViewProgress.h */,
+				D3CBB7A01EE547CD0078EE54 /* NJKWebViewProgress.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CBB7401EE525980078EE54 /* TTWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CBB7711EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWeb" */;
+			buildPhases = (
+				D3CBB73D1EE525980078EE54 /* Sources */,
+				D3CBB73E1EE525980078EE54 /* Frameworks */,
+				D3CBB73F1EE525980078EE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTWeb;
+			productName = TTWeb;
+			productReference = D3CBB7411EE525980078EE54 /* TTWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3CBB75C1EE525980078EE54 /* TTWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CBB7741EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWebTests" */;
+			buildPhases = (
+				D3CBB7591EE525980078EE54 /* Sources */,
+				D3CBB75A1EE525980078EE54 /* Frameworks */,
+				D3CBB75B1EE525980078EE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CBB75F1EE525980078EE54 /* PBXTargetDependency */,
+			);
+			name = TTWebTests;
+			productName = TTWebTests;
+			productReference = D3CBB75D1EE525980078EE54 /* TTWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3CBB7671EE525980078EE54 /* TTWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CBB7771EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWebUITests" */;
+			buildPhases = (
+				D3CBB7641EE525980078EE54 /* Sources */,
+				D3CBB7651EE525980078EE54 /* Frameworks */,
+				D3CBB7661EE525980078EE54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3CBB76A1EE525980078EE54 /* PBXTargetDependency */,
+			);
+			name = TTWebUITests;
+			productName = TTWebUITests;
+			productReference = D3CBB7681EE525980078EE54 /* TTWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CBB7391EE525980078EE54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ClaudeLi;
+				TargetAttributes = {
+					D3CBB7401EE525980078EE54 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D3CBB75C1EE525980078EE54 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3CBB7401EE525980078EE54;
+					};
+					D3CBB7671EE525980078EE54 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3CBB7401EE525980078EE54;
+					};
+				};
+			};
+			buildConfigurationList = D3CBB73C1EE525980078EE54 /* Build configuration list for PBXProject "TTWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3CBB7381EE525980078EE54;
+			productRefGroup = D3CBB7421EE525980078EE54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CBB7401EE525980078EE54 /* TTWeb */,
+				D3CBB75C1EE525980078EE54 /* TTWebTests */,
+				D3CBB7671EE525980078EE54 /* TTWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CBB73F1EE525980078EE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CBB7AF1EE548A90078EE54 /* test.html in Resources */,
+				D3CBB7571EE525980078EE54 /* LaunchScreen.storyboard in Resources */,
+				D3CBB7541EE525980078EE54 /* Assets.xcassets in Resources */,
+				D3CBB74F1EE525980078EE54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB75B1EE525980078EE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB7661EE525980078EE54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CBB73D1EE525980078EE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CBB7AD1EE547EE0078EE54 /* UIWebView+TS_JavaScriptContext.m in Sources */,
+				D3CBB7AB1EE547EE0078EE54 /* TTWebView+SwipePanGesture.m in Sources */,
+				D3CBB7521EE525980078EE54 /* TTWeb.xcdatamodeld in Sources */,
+				D3CBB7AC1EE547EE0078EE54 /* UIView+ViewController.m in Sources */,
+				D3CBB7821EE526290078EE54 /* TTWKWebView.m in Sources */,
+				D3CBB74C1EE525980078EE54 /* ViewController.m in Sources */,
+				D3CBB7491EE525980078EE54 /* AppDelegate.m in Sources */,
+				D3CBB7A31EE547CD0078EE54 /* NJKWebViewProgress.m in Sources */,
+				D3CBB78D1EE5263A0078EE54 /* TTJSContext.m in Sources */,
+				D3CBB7461EE525980078EE54 /* main.m in Sources */,
+				D3CBB78C1EE5263A0078EE54 /* TTWebObject.m in Sources */,
+				D3CBB7811EE526290078EE54 /* TTWebView.m in Sources */,
+				D3CBB7831EE526290078EE54 /* TTUIWebView.m in Sources */,
+				D3CBB79C1EE52C870078EE54 /* TTWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB7591EE525980078EE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CBB7621EE525980078EE54 /* TTWebTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CBB7641EE525980078EE54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CBB76D1EE525980078EE54 /* TTWebUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3CBB75F1EE525980078EE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CBB7401EE525980078EE54 /* TTWeb */;
+			targetProxy = D3CBB75E1EE525980078EE54 /* PBXContainerItemProxy */;
+		};
+		D3CBB76A1EE525980078EE54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3CBB7401EE525980078EE54 /* TTWeb */;
+			targetProxy = D3CBB7691EE525980078EE54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3CBB74D1EE525980078EE54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CBB74E1EE525980078EE54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3CBB7551EE525980078EE54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3CBB7561EE525980078EE54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CBB76F1EE525980078EE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3CBB7701EE525980078EE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CBB7721EE525980078EE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3CBB7731EE525980078EE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3CBB7751EE525980078EE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTWeb.app/TTWeb";
+			};
+			name = Debug;
+		};
+		D3CBB7761EE525980078EE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTWeb.app/TTWeb";
+			};
+			name = Release;
+		};
+		D3CBB7781EE525980078EE54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTWeb;
+			};
+			name = Debug;
+		};
+		D3CBB7791EE525980078EE54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudeli.TTWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CBB73C1EE525980078EE54 /* Build configuration list for PBXProject "TTWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CBB76F1EE525980078EE54 /* Debug */,
+				D3CBB7701EE525980078EE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CBB7711EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CBB7721EE525980078EE54 /* Debug */,
+				D3CBB7731EE525980078EE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CBB7741EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CBB7751EE525980078EE54 /* Debug */,
+				D3CBB7761EE525980078EE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CBB7771EE525980078EE54 /* Build configuration list for PBXNativeTarget "TTWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CBB7781EE525980078EE54 /* Debug */,
+				D3CBB7791EE525980078EE54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3CBB7501EE525980078EE54 /* TTWeb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3CBB7511EE525980078EE54 /* TTWeb.xcdatamodel */,
+			);
+			currentVersion = D3CBB7511EE525980078EE54 /* TTWeb.xcdatamodel */;
+			path = TTWeb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D3CBB7391EE525980078EE54 /* Project object */;
+}
